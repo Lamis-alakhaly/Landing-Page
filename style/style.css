@@ -46,6 +46,7 @@ a{
 .descripe-web h1{
     font-size: 48px;
     color: #f9faf8;
+    font-weight: bolder;
     
 
 }
@@ -65,4 +66,100 @@ button{
     height: 40px;
     width: 100px;
     border-radius: 8px;
+}
+
+.section1{
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.section1 h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    
+}
+
+.section1-image{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.imgOfsection1{
+    display: flex;
+    flex-direction: column;
+   padding-top: 10px;
+    height: 15em;
+    width: 15em;
+}
+
+.imgOfsection1 img{
+    border-radius: 8px;
+    
+}
+
+.section2{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5% 10% 5% 10%;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.parag{ 
+    
+    padding-left: 70%;
+    font-size:30px ;
+    font-weight: bold;
+}
+
+.section3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10% 10% 10% 10%;
+
+
+}
+.cont{
+    background-color: #3882f6;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: #e5e7eb;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.cont button{
+    border: 2px solid white;
+    width: 150px;
+    font-weight: bold;
+    
+
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1f2937;
+color: #e5e7eb;
+font-size: 18px;
+padding-top: 2%;
+padding-bottom: 2%;
+
 }
